@@ -1,0 +1,123 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+class details extends StatefulWidget {
+  const details({Key? key}) : super(key: key);
+
+  @override
+  _detailsState createState() => _detailsState();
+}
+
+class _detailsState extends State<details> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+body: Center(
+  child: Column(
+    //crossAxisAlignment: CrossAxisAlignment.end,
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: [
+      Container(
+
+        height: 200,
+          width: 200,
+        decoration: BoxDecoration(
+          image:DecorationImage(
+            image: AssetImage("assets/images/5.jpg"),
+            fit: BoxFit.cover
+          ),
+          borderRadius: BorderRadius.circular(20),
+             ),
+
+            child: Container(
+             padding: EdgeInsets.symmetric(vertical: 10,horizontal: 0),
+                decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                  gradient: LinearGradient(
+                      begin: Alignment.bottomRight,
+                      colors:
+                      [
+                        Colors.deepPurpleAccent.withOpacity(0.7),
+                        Colors.deepPurpleAccent.withOpacity(0.5),
+                        Colors.deepPurpleAccent.withOpacity(0.3),
+                        Colors.deepPurpleAccent.withOpacity(0.1),
+
+                      ]
+              ) ,
+            ),
+            child:  Text("        PDP online",style: TextStyle(color: Colors.white,fontSize: 24),),
+
+
+      ),),
+      SizedBox(height: 10,),
+      Container(
+
+        height: 200,
+        width: 200,
+        decoration: BoxDecoration(
+          image:DecorationImage(
+              image: AssetImage("assets/images/5.jpg"),
+              fit: BoxFit.cover
+          ),
+          borderRadius: BorderRadius.circular(20),
+        ),
+
+        child: Container(
+          padding: EdgeInsets.symmetric(vertical: 10,horizontal: 0),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            gradient: LinearGradient(
+                begin: Alignment.bottomRight,
+                colors:
+                [
+                  Colors.green.withOpacity(0.7),
+                  Colors.green.withOpacity(0.5),
+                  Colors.green.withOpacity(0.3),
+                  Colors.green.withOpacity(0.1),
+
+                ]
+            ) ,
+          ),
+          child:  Text("        PDP online",style: TextStyle(color: Colors.white,fontSize: 24),),
+
+
+        ),),
+      SizedBox(height: 10,),
+      Container(
+
+        height: 200,
+        width: 200,
+        decoration: BoxDecoration(
+          image:DecorationImage(
+              image: AssetImage("assets/images/5.jpg"),
+              fit: BoxFit.cover
+          ),
+          borderRadius: BorderRadius.circular(20),
+        ),
+
+        child: Container(
+          padding: EdgeInsets.symmetric(vertical: 10,horizontal: 0),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            gradient: LinearGradient(
+                begin: Alignment.bottomRight,
+                colors:
+                [
+                  Colors.blue.withOpacity(0.7),
+                  Colors.blue.withOpacity(0.5),
+                  Colors.blue.withOpacity(0.3),
+                  Colors.blue.withOpacity(0.1),
+
+                ]
+            ) ,
+          ),
+          child:  Text("        PDP online",style: TextStyle(color: Colors.white,fontSize: 24),),
+
+
+        ),),
+    ],
+  ),
+),
+    );
+  }
+}
