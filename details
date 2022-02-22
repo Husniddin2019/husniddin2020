@@ -23,7 +23,7 @@ body: Center(
           width: 200,
         decoration: BoxDecoration(
           image:DecorationImage(
-            image: AssetImage("assets/images/5.jpg"),
+            image: NetworkImage('https://yt3.ggpht.com/pl-pa9hLg5NS2sXUlKsvpDwoinfjlKzYb8cM0zqGVxUUBDeRbGegGZbC8QRcPj62yiFzYN70Lg=s900-c-k-c0x00ffffff-no-rj'),
             fit: BoxFit.cover
           ),
           borderRadius: BorderRadius.circular(20),
@@ -56,7 +56,7 @@ body: Center(
         width: 200,
         decoration: BoxDecoration(
           image:DecorationImage(
-              image: AssetImage("assets/images/5.jpg"),
+              image: NetworkImage('https://yt3.ggpht.com/pl-pa9hLg5NS2sXUlKsvpDwoinfjlKzYb8cM0zqGVxUUBDeRbGegGZbC8QRcPj62yiFzYN70Lg=s900-c-k-c0x00ffffff-no-rj'),
               fit: BoxFit.cover
           ),
           borderRadius: BorderRadius.circular(20),
@@ -89,7 +89,7 @@ body: Center(
         width: 200,
         decoration: BoxDecoration(
           image:DecorationImage(
-              image: AssetImage("assets/images/5.jpg"),
+              image: NetworkImage('https://yt3.ggpht.com/pl-pa9hLg5NS2sXUlKsvpDwoinfjlKzYb8cM0zqGVxUUBDeRbGegGZbC8QRcPj62yiFzYN70Lg=s900-c-k-c0x00ffffff-no-rj'),
               fit: BoxFit.cover
           ),
           borderRadius: BorderRadius.circular(20),
